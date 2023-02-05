@@ -1,0 +1,35 @@
+.video-section {
+
+    height: 700px;
+    background-image: url(/img/background-trailer.png);
+    /* display: block; */
+    background-size: cover;
+    text-align: center;
+    box-shadow: -11px 18px 8px -5px rgba(0, 0, 0, 0.25);
+
+    &__button {
+
+        margin-top: 310px;
+        /* margin-left: auto;
+        margin-right: auto; */
+
+
+
+
+        width: 260px;
+        height: 80px;
+
+        background: $background-but-color;
+        border: 3px solid #26C7EA;
+        border-radius: 45px 0px;
+
+
+        color: #26C7EA;
+
+        font-family: 'HeadlandOne';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+}

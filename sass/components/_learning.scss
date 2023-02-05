@@ -1,0 +1,99 @@
+.learning-section {
+    height: 664px;
+
+    background-size: cover;
+    background-image: url(/img/background-learn.png);
+
+    &__list {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        background-color: rgba(255, 255, 255, 0.7);
+        ;
+
+
+        width: 320px;
+        height: 240px;
+    }
+
+    &__title {
+
+        padding-top: 33px;
+        margin-bottom: 47px;
+
+        font-family: 'HeadlandOne';
+
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+
+
+        text-align: center;
+
+        color: #1F2426;
+    }
+
+    &__text {
+
+        margin-top: 36px;
+        margin-bottom: 40px;
+        font-family: 'HeadlandOne';
+
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    &__img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 152px;
+        height: 40px;
+
+
+
+    }
+
+    &__translate {
+        margin-top: 40px;
+        margin-bottom: 36px;
+
+        font-family: 'HeadlandOne';
+
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    & li {
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+        &:nth-child(3n) {
+            margin-right: 0px;
+        }
+
+    }
+
+
+}
+
+
+
+.arrow {
+    transform: rotate(180deg);
+}
