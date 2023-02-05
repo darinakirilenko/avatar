@@ -22,7 +22,7 @@ ul {
 }
 
 .main-section {
-  background-image: linear-gradient(90.15deg, rgba(54, 82, 106, 0.89) 3%, rgba(55, 107, 151, 0.0712) 47.96%), url(/img/background-main.png);
+  background-image: linear-gradient(90.15deg, rgba(54, 82, 106, 0.89) 3%, rgba(55, 107, 151, 0.0712) 47.96%), url(../img/background-main.png);
   background-size: cover;
   width: 100%;
 }
@@ -146,7 +146,7 @@ input:checked + .slider:before {
 .learning-section {
   height: 664px;
   background-size: cover;
-  background-image: url(/img/background-learn.png);
+  background-image: url(../../img/background-learn.png);
 }
 .learning-section__list {
   flex-wrap: wrap;
@@ -254,7 +254,7 @@ input:checked + .slider:before {
 /* The slider */
 .video-section {
   height: 700px;
-  background-image: url(/img/background-trailer.png);
+  background-image: url(../../img/background-trailer.png);
   /* display: block; */
   background-size: cover;
   text-align: center;
@@ -280,5 +280,5 @@ input:checked + .slider:before {
 .footer-section {
   height: 268px;
   background-size: cover;
-  background-image: url(/img/background-footer.png);
+  background-image: url(../../img/background-footer.png);
 }/*# sourceMappingURL=main.css.map */
